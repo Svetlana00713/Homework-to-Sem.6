@@ -15,6 +15,18 @@ double k2 = Convert.ToInt32(Console.ReadLine());
 double x = (b2-b1) / (k1-k2);
 double y = k1 * x + b1;
 Console.Write($"({x}, {y})");
+if(k1 == k2 & b1 != b2)
+{
+    Console.Write($"Прямые параллельны");
+}
+else if(k1 == k2 & b1 == b2)
+{
+    Console.Write($"Прямые совпадают");
+}
+
+
+
+
 
 
     
